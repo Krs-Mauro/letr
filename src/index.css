@@ -1,0 +1,29 @@
+:root {
+  font-family: "Lexend Deca", sans-serif sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #4a3f60;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  padding: 8rem 0 0 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #2f2544;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #59487b;
+  border-radius: 6px;
+}
